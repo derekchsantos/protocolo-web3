@@ -1,75 +1,24 @@
-<<<<<<< HEAD
-# Protocolo Web3 Completo
-=======
-📌 Descrição
+# Protocolo Web3 MVP 🚀
 
-Protocolo descentralizado MVP integrando emissão de ativos (ERC-20/721), sistema de recompensas com oráculo e governança on-chain.
+📌 **Descrição**
+Protocolo descentralizado desenvolvido para a gestão de ativos digitais, integrando emissão de tokens (ERC-20), coleções de NFTs (ERC-721), sistema de recompensas (Staking) com dados do mundo real e governança participativa (DAO).
 
-🏗️ Arquitetura
+🏗️ **Arquitetura de Smart Contracts**
+*   **Token ERC-20:** `0x4B913269286B1F776180836DE37e7c1cf286D107`
+*   **NFT ERC-721:** `0xA7c8096B1046284013CbC7D06239E1fB2Cd3B762`
+*   **Staking (Oráculo Chainlink):** `0x730F2D21e11c3fC1bA264f9feC1D5bf2d37B4767`
+*   **Governança (DAO):** `0x632fD3F554cB0D9Eb57D221bD69Df84095DEC135`
 
-Token ERC-20: 0x4B913269286B1F776180836DE37e7c1cf286D107
+🔗 **Rede e Exploração**
+*   **Blockchain:** Ethereum Testnet Sepolia
+*   **Explorador de Blocos:** [Sepolia Etherscan](https://sepolia.etherscan.io)
 
-NFT ERC-721: 0xA7c8096B1046284013CbC7D06239E1fB2Cd3B762
+🔒 **Segurança e Auditoria**
+*   **Proteção de Ativos:** Implementação de `ReentrancyGuard` contra ataques de reentrada e `Ownable` para controle de acesso administrativo via bibliotecas **OpenZeppelin**.
+*   **Dados Externos:** Integração com Oráculos **Chainlink** para alimentação de preços descentralizada e segura.
+*   **Infraestrutura:** Desenvolvido em **Solidity ^0.8.28** com alvo na EVM Cancun.
+*   **Auditoria Estática:** Validado e auditado via **Slither** e análise de segurança nativa do **Hardhat**.
 
-Staking (Chainlink): 0x730F2D21e11c3fC1bA264f9feC1D5bf2d37B4767
+📄 **Licença**
+Este projeto está sob a licença [MIT](LICENSE).
 
-Governança (DAO): 0x632fD3F554cB0D9Eb57D221bD69Df84095DEC135
-
-🔗 Links
-
-Testnet: Sepolia
-Explorador: https://sepolia.etherscan.io
-
-🚀 Como Usar
-
-Clone o repositório
-pnpm install
-Configure o arquivo .env (ALCHEMY_API_KEY e PRIVATE_KEY)
-pnpm exec hardhat run scripts/deploy.js --network sepolia
-
-🔒 Segurança
-
-Roteção: ReentrancyGuard e Ownable (OpenZeppelin)
-Compilador: Solidity ^0.8.28 (Target: Cancun)
-Auditoria: Validado via Slither e análise estática do Hardhat
-
-📄 Licença
-MIT
->>>>>>> 3d8ec511fc58f082c731a9d68f7bc996da948a48
->>>>>>> 18db8a907ebb6cfee14104e0dd18ebd50a9a2e31
-
-## 📌 Descrição
-Protocolo descentralizado com token ERC-20, NFT ERC-721, staking e governança.
-
-## 🏗️ Arquitetura
-| Contrato | Endereço (Sepolia) | Link no Explorer |
-|----------|-------------------|------------------|
-| Token ERC-20 | `0x...` | [Ver](https://sepolia.etherscan.io/address/...) |
-| NFT ERC-721 | `0x...` | [Ver](https://sepolia.etherscan.io/address/...) |
-| Staking | `0x...` | [Ver](https://sepolia.etherscan.io/address/...) |
-| Governança | `0x...` | [Ver](https://sepolia.etherscan.io/address/...) |
-
-## 🔗 Links
-- Testnet: Sepolia
-- Explorador: https://sepolia.etherscan.io
-
-## 🚀 Como Usar
-```bash
-# 1. Clone o repositório
-git clone https://github.com/seu-usuario/protocolo-web3.git
-cd protocolo-web3
-
-# 2. Instale as dependências (usando pnpm)
-pnpm install
-
-# 3. Configure o arquivo .env
-# Edite .env com sua RPC e Private Key
-
-# 4. Compile os contratos
-pnpm exec hardhat compile
-
-# 5. Deploy na Sepolia
-pnpm exec hardhat run scripts/deploy.ts --network sepolia
-
-# 6. Verifique no Etherscan (opcional)
-pnpm exec hardhat verify --network sepolia <ENDEREÇO_DO_CONTRATO>
