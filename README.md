@@ -32,4 +32,5 @@ Auditoria: Validado via Slither e análise estática do Hardhat
 
 📄 Licença
 MIT
+>>>>>>> 3d8ec511fc58f082c731a9d68f7bc996da948a48
 
