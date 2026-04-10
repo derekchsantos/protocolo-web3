@@ -1,37 +1,37 @@
-``shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
-=======
 # Protocolo Web3 Completo
 
 ## 📌 Descrição
-Protocolo descentralizado com token, NFT, staking e governança.
+Protocolo descentralizado com token ERC-20, NFT ERC-721, staking e governança.
 
 ## 🏗️ Arquitetura
-- Token ERC-20: [Endereço]
-- NFT ERC-721: [Endereço]
-- Staking: [Endereço]
-- Governança: [Endereço]
+| Contrato | Endereço (Sepolia) | Link no Explorer |
+|----------|-------------------|------------------|
+| Token ERC-20 | `0x...` | [Ver](https://sepolia.etherscan.io/address/...) |
+| NFT ERC-721 | `0x...` | [Ver](https://sepolia.etherscan.io/address/...) |
+| Staking | `0x...` | [Ver](https://sepolia.etherscan.io/address/...) |
+| Governança | `0x...` | [Ver](https://sepolia.etherscan.io/address/...) |
 
 ## 🔗 Links
 - Testnet: Sepolia
 - Explorador: https://sepolia.etherscan.io
 
 ## 🚀 Como Usar
-1. Clone o repo
-2. `npm install`
-3. Configure `.env`
-4. `npx hardhat run scripts/deploy.js --network sepolia`
+```bash
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/protocolo-web3.git
+cd protocolo-web3
 
-## 🔒 Segurança
-- ReentrancyGuard implementado
-- AccessControl via Ownable
-- Auditado com Slither e Mythril
+# 2. Instale as dependências (usando pnpm)
+pnpm install
 
-## 📄 Licença
-MIT
->>>>>>> 3d8ec511fc58f082c731a9d68f7bc996da948a48
+# 3. Configure o arquivo .env
+# Edite .env com sua RPC e Private Key
+
+# 4. Compile os contratos
+pnpm exec hardhat compile
+
+# 5. Deploy na Sepolia
+pnpm exec hardhat run scripts/deploy.ts --network sepolia
+
+# 6. Verifique no Etherscan (opcional)
+pnpm exec hardhat verify --network sepolia <ENDEREÇO_DO_CONTRATO>
