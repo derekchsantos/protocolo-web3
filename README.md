@@ -16,7 +16,7 @@ Protocolo descentralizado desenvolvido para a gestão de ativos digitais, integr
 🔒 **Segurança e Auditoria**
 *   **Proteção de Ativos:** Implementação de `ReentrancyGuard` contra ataques de reentrada e `Ownable` para controle de acesso administrativo via bibliotecas **OpenZeppelin**.
 *   **Dados Externos:** Integração com Oráculos **Chainlink** para alimentação de preços descentralizada e segura.
-*   **Infraestrutura:** Desenvolvido em **Solidity ^0.8.28** com alvo na EVM Cancun.
+*   **Infraestrutura:** Desenvolvido em **Solidity ^0.8.20** com alvo na EVM Cancun.
 *   **Auditoria Estática:** Validado e auditado via **Slither** e análise de segurança nativa do **Hardhat**.
 
 📄 **Licença**
