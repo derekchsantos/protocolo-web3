@@ -4,10 +4,10 @@
 Protocolo descentralizado desenvolvido para a gestão de ativos digitais, integrando emissão de tokens (ERC-20), coleções de NFTs (ERC-721), sistema de recompensas (Staking) com dados do mundo real e governança participativa (DAO).
 
 🏗️ **Arquitetura de Smart Contracts**
-*   **Token ERC-20:** `0x4B913269286B1F776180836DE37e7c1cf286D107`
-*   **NFT ERC-721:** `0xA7c8096B1046284013CbC7D06239E1fB2Cd3B762`
-*   **Staking (Oráculo Chainlink):** `0x730F2D21e11c3fC1bA264f9feC1D5bf2d37B4767`
-*   **Governança (DAO):** `0x632fD3F554cB0D9Eb57D221bD69Df84095DEC135`
+*   **Token ERC-20:** `0x496d47447eb836490a8Ec743BB3257117A515f4A`
+*   **NFT ERC-721:** `0x1b6CBfCCa3B455B74a0DF386ee0c764f901EF5c2`
+*   **Staking (Oráculo Chainlink):** `0x982e869e8d41925e1CD8874C10ef3dCB29C23594`
+*   **Governança (DAO):** ` 0x36E1484a26B2d4EC16d0323CfD269F2b22Dc1504`
 
 🔗 **Rede e Exploração**
 *   **Blockchain:** Ethereum Testnet Sepolia
