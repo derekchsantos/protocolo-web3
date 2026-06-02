@@ -5,6 +5,8 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 import "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
 
+//@author Derek Christopher
+
 contract Staking is ReentrancyGuard {
     IERC20 public token;
     AggregatorV3Interface internal priceFeed;
