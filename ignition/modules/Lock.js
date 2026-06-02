@@ -1,3 +1,7 @@
+/**
+* @author Derek Christopher
+*/
+
 const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
 
 const JAN_1ST_2030 = 1893456000;
