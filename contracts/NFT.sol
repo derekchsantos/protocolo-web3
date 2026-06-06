@@ -3,8 +3,6 @@ pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
-//@author Derek Christopher
-
 contract NFT is ERC721 {
     constructor() ERC721("Meu NFT", "MNFT") {}
 
