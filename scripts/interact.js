@@ -1,7 +1,3 @@
-/**
-* @author Derek Christopher
-*/
-
 const hre = require("hardhat");
 
 async function main() {
